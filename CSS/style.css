@@ -1,0 +1,223 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-family: "Bebas Neue", cursive;
+  color: #363958;
+  margin: 0;
+  padding: 0;
+  margin-top: 30px;
+  font-size: 50px;
+  text-transform: uppercase;
+}
+h3 {
+  font-family: "Roboto", sans-serif;
+}
+p {
+  font-family: "Roboto", sans-serif;
+  color: #3e3e3e;
+  font-size: 16px;
+}
+section {
+  margin-left: 30px;
+}
+.btn {
+  padding: 10px 20px;
+  border-radius: 5px;
+  background-image: linear-gradient(180deg, lightSalmon, tomato);
+  border: none;
+  color: #ffffff;
+}
+.btn a {
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: 700;
+}
+
+.profile_pic img {
+  width: 350px;
+  height: 350px;
+}
+
+/* Navbar */
+nav {
+  height: 50px;
+  width: 100%;
+}
+nav ul {
+  margin: 0;
+  padding: 0;
+  float: right;
+  margin-right: 50px;
+}
+nav ul li {
+  list-style-type: none;
+  display: inline-block;
+  padding: 15px 15px;
+}
+
+/* profile Name Section */
+.profile_section {
+  margin-top: 5%;
+  margin-bottom: 15%;
+}
+
+/*Start  profile Name Div  */
+/* Profile Name */
+.prifile_name {
+  font-size: 50px;
+  float: left;
+  margin-right: 20%;
+  width: 400px;
+  height: auto;
+}
+
+.prifile_name h3 {
+  color: #ff8367;
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+}
+/* Profile Pic */
+.about_me_section {
+  height: 400px;
+}
+.profile_pic {
+  width: 100%;
+  height: 250px;
+}
+
+/*End  profile Name Div  */
+
+/* Start About Me Section */
+
+.profile_pic_handshekh {
+  float: left;
+  width: 400px;
+  height: 400px;
+  margin-right: 10%;
+}
+
+/* End About Me Section */
+
+/* Start Work */
+.work {
+  background: #e5e5e5;
+  height: 650px;
+  margin-left: 0 !important;
+}
+.work_heading {
+  padding-top: 50px;
+}
+.work_heading h1 {
+  text-align: center;
+}
+.work_heading span {
+  color: #ff8367;
+}
+.work_details {
+  margin-left: 30px;
+  background-color: #ffffff;
+  margin-top: 80px;
+}
+.work_details img {
+  width: 270px;
+  height: 200px;
+  padding-top: 15px;
+  padding-left: 15px;
+}
+
+.work_details_div {
+  float: left;
+  background-color: #ffffff;
+  border-radius: 10px;
+  margin-right: 25px;
+  width: 300px;
+  height: 330px;
+}
+.work_details_div h2 {
+  margin-bottom: 0;
+  margin-left: 10px;
+}
+.work_details_div p {
+  margin-top: 10px;
+  margin-left: 10px;
+}
+/* End Work */
+
+/* Team Section */
+.team {
+  height: 500px;
+  background: #22252a;
+  margin-left: 0 !important;
+}
+.team_members h2 {
+  color: #ffffff;
+  margin-top: 0;
+  margin-bottom: 50px;
+}
+.team_members h4 {
+  color: #ff8367;
+  font-size: 18px;
+}
+.team_members p {
+  color: #ffffff;
+  width: 197px;
+}
+.team_members {
+  margin: 0 20px;
+  text-align: center;
+  padding: 20px;
+}
+.team_members img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-top: 10px;
+}
+.member {
+  height: 300px;
+  width: 200px;
+  background: #2d3035;
+  float: left;
+  margin-right: 30px;
+  border-radius: 10px;
+}
+
+/* Start Inquiry Section */
+.inquiry_section {
+  height: 220px;
+}
+.inquiry {
+  background-image: url(../images/Group_33094_1.png);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: contain;
+  height: 160px;
+  margin-top: 120px;
+}
+.inquiry h1 {
+  margin-left: 230px;
+  padding-top: 44px;
+  color: #ffffff;
+}
+span.btn {
+  display: inline-block;
+  margin-right: 230px;
+  float: right;
+  margin-top: -55px;
+}
+/* End Inquiry Section */
+
+/* Footer */
+.footer {
+  text-align: center;
+  height: 200px;
+}
+.footer img {
+  width: 40px;
+  height: 40px;
+  margin-right: 15px;
+}
